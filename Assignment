@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML5 Assignment</title>
+    
+</head>
+<body>
+
+    <h1>HTML5 Week 2 Assignment</h1>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>List of Countries in Africa</h2>
+    <ol type="I">
+        <li>Malawi</li>
+        <li>Nigeria</li>
+        <li>Kenya</li>
+        <li>Mauritius</li>
+        <li>Egypt</li>
+        <li>Uganda</li>
+        <li>Lesotho</li>
+        <li>Eswatini</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Map of Africa</h2>
+    <img src="https://images.pexels.com/photos/2660262/pexels-photo-2660262.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Map of Africa" style="height:300px ;width:800;"
+
+    <!-- Table of Contacts -->
+    <h2>Contact Information</h2>
+    <table>
+        <table border="1">
+            <caption> Tour Guides</caption>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>John Doe</td>
+            <td>123 Elf Street</td>
+            <td>+1234567890</td>
+            <td>johndoe@africa.com</td>
+        </tr>
+        <tr>
+            <td>Jane Doe</td>
+            <td>456 Walk Avenue</td>
+            <td>+9876543210</td>
+            <td>janedoe@africa.com</td>
+        </tr>
+        <tr>
+            <td>Bob Who</td>
+            <td>Zambezi</td>
+            <td>+2551234567</td>
+            <td>bobwho@africa.com</td>
+        </tr>
+        <tr>
+            <td>Alice Drinkwater</td>
+            <td>Waterslide</td>
+            <td>+2229876543</td>
+            <td>alicewater@africa.com</td>
+        </tr>
+        <tr>
+            <td>Charlie Rice</td>
+            <td>Lilongwe</td>
+            <td>+4445551234</td>
+            <td>charlierice@africa.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post" id="registration-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <label for="dob">Date of Registration:</label>
+        <input type="date" id="dor" name="dor" required><br><br>
+
+        <!-- Dropdown -->
+         <h3> Other Information</h3>
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="us">Ghana</option>
+            <option value="ca">Namibia</option>
+            <option value="uk">Chad</option>
+            <option value="au">Somalia</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label>Preferences:</label><br>
+        <input type="checkbox" id="newsletter" name="preferences" value="newsletter">
+        <label for="newsletter">Subscribe to newsletter</label><br>
+        <input type="checkbox" id="updates" name="preferences" value="updates">
+        <label for="updates">Receive product updates</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+        <button type="reset">Cancel</button>
+    </form>
+
+    
+    
+
+</body>
+</html>
